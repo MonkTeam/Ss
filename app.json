@@ -22,6 +22,11 @@
         "value": "1337055626:AAFAHcLvoe-3yhNJGBwsYIdCfp3Rc-zVENQ",
         "required": true
       },
+      "AUTHORIZED_CHATS": {
+        "description": "The telegram bot which works on this groups/owners",
+        "value": "[-1001186041542, -1001491078689, 1327934109, 1054316613, 1152240399]",
+        "required": true
+      },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
         "value": "1mUsGMO8DLMuASD8dlffjHW_0dMnRy-sT",
