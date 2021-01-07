@@ -19,7 +19,7 @@
     },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
-        "value": "1337055626:AAFAHcLvoe-3yhNJGBwsYIdCfp3Rc-zVENQ",
+        "value": "1438275746:AAH-uPHZCkWd1OMlNdDTco5nX9UQNqy8F2E",
         "required": true
       },
       "AUTHORIZED_CHATS": {
@@ -29,7 +29,7 @@
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
-        "value": "1mUsGMO8DLMuASD8dlffjHW_0dMnRy-sT",
+        "value": "11C0ik4lMVdhtEdt7f66RoGWhwmvF45vo",
         "required": true
       },
       "DOWNLOAD_DIR": {
@@ -64,7 +64,7 @@
       },
       "INDEX_URL": {
         "description": "Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'.",
-        "value": "https://1.aitorrent-ware.workers.dev/Bot%20Uploads",
+        "value": "https://5.aitorrent-ware.workers.dev/Bot%20Uploads",
         "required": false
       },
       "TELEGRAM_API": {
@@ -99,7 +99,7 @@
       },
       "USER_SESSION_STRING": {
         "description": "Open this link to generate session string ==> https://string-session.sonywegas.repl.run",
-        "value": "BACvIlE3H__XcFwjkPNRXpHbr5ZBwEShr4gulARk-EevJh1aZ7Llm6DN_0dEqOC0n-d94lWTZGQJEZ_GijoRWD3pJoywnOBlHH97D8d3hW9DwX-zUgpHyrla1qNbGFrRuDw97l_Ihx5o7lIJ_E_OxbChAju9M6byP4AeLrgsSq81m4oRZCRIOpJ5f5MM6DCLTo5XoXyovPMeHTsGlu514GzCZgzlcVir_pLCSAnR8MjxRnaeqyDQ6sO_kClK6PaiZ-bSQFfF7sy7O0AhDKl2K8g8EK7U9qjDNDmCeBVnmem4F3qf4stCv5Aq_oD9ShL5KfrWBZzCtUKv7oEcj6WZVAGvLvoUxgA",
+        "value": "BAAKZVFk_Y1o9HztBWgrGCL3KGldLulnGQlIBMfg2UWJQY8spF1fR01yAB14KG49lRuITWdGOUmEOg496GgnoSmmfbsyiMUEFyqEWNz9JpZZ5dSVM6CJH_gG8i4EhEb6Seg14DV-TYEGu2MbnNVz3YYyNyGbkJiA_Z77V2FcfmAIcAaV2pTGlA6IYVSGxAGIwHsPaHELy5H2kIPSteDTvM89STimCjaj7BZIxsKtAySdrpodYtzY34rec3krF5nQvI3Unk9ZAAKonJIhcsOvnB80wYd43GTB0xBboJo46IFYv7TxpFonlJFW0m0ezVSi6OPhp0MDx8Iz5HzrxaH8nYH-LvoUxgA",
         "required": true
       }
     },
