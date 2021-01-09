@@ -8,7 +8,7 @@ RUN apt-get -qq update && \
     locales python3-lxml \
     curl pv jq ffmpeg \
     p7zip-full p7zip-rar
-    apt-get install -y software-properties-common && \
+    apt install -y software-properties-common && \
     rm -rf /var/lib/apt/lists/* && \
     apt-add-repository non-free && \
     apt-get -qq update && \
