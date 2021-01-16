@@ -12,6 +12,7 @@ RUN apt-get -qq update && \
     apt-get purge -y software-properties-common
 
 COPY requirements.txt .
+COPY authorized_chats.txt .
 COPY extract /usr/local/bin
 RUN pip3 uninstall appdirs
 RUN pip3 install appdirs
