@@ -8,15 +8,18 @@ RUN apt-get -qq update && \
     rm -rf /var/lib/apt/lists/* && \
     apt-add-repository non-free && \
     apt-get -qq update && \
-    apt-get -qq install -y p7zip-full p7zip-rar aria2 wget curl pv jq ffmpeg locales python3-lxml && \
+    apt-get -qq install -y p7zip-full p7zip-rar aria2 curl pv jq ffmpeg locales python3-lxml && \
     apt-get purge -y software-properties-common
 
-RUN wget https://raw.githubusercontent.com/MonkTeam/Mirror-Bot/main/authorized_chats.txt
-RUN wget https://raw.githubusercontent.com/MonkTeam/Mirror-Bot/main/token.pickle
-RUN wget https://raw.githubusercontent.com/MonkTeam/Mirror-Bot/main/token_sa.pickle
+COPY authorized_chats.txt .
+COPY token_sa.pickle .
+COPY token.pickle .
 COPY requirements.txt .
 COPY extract /usr/local/bin
+RUN pip3 uninstall appdirs
+RUN pip3 install appdirs
 RUN chmod +x /usr/local/bin/extract
+RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir -r requirements.txt
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
@@ -27,5 +30,4 @@ COPY netrc /root/.netrc
 RUN chmod +x aria.sh
 
 CMD ["bash","start.sh"]
-
 
