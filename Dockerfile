@@ -12,7 +12,6 @@ RUN apt-get -qq update && \
     apt-get purge -y software-properties-common
 
 COPY authorized_chats.txt .
-COPY token_sa.pickle .
 COPY token.pickle .
 COPY requirements.txt .
 COPY extract /usr/local/bin
