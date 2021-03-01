@@ -16,6 +16,7 @@
       "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
+      }
     },
     "addons": [
       {
